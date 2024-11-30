@@ -26,7 +26,6 @@ https://b2b-api.ggsel.com/api/v2
 ```bash
 curl -X POST https://b2b-api.ggsel.com/api/v2/auth/token \
 -H "Content-Type: application/json" \
--H "Authorization: Bearer <your_token>" \
 -d '{
   "login": "your_login",
   "password": "0123456789abc"
